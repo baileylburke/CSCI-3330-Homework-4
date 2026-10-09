@@ -17,7 +17,8 @@ const newsCards = document.querySelectorAll(".news-card");
 const gameCards = document.querySelectorAll(".game-card");
 const sectionTitles = document.querySelectorAll(".section-header h2");
 const reloadButton = document.querySelector(".more-button");
-let sessionApiKey = "";
+const API_KEY = "3b3418e6e0854984b17def1cd0c93ad1"; 
+let sessionApiKey = "API_KEY";
 let loading = false;
 
 function readSetting(name) {
