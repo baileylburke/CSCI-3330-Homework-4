@@ -10,7 +10,7 @@ function formatPercentage(value) {
   return `${(value * 100).toFixed(2)}%`;
 }
 
-const DEFAULT_GAME_ID = "1273796";
+const DEFAULT_GAME_ID = "33313";
 const NEWS_FALLBACK_ID = "1261640";
 const API_BASE = "https://api.gamebrain.co/v1/games/";
 const newsCards = document.querySelectorAll(".news-card");
